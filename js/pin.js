@@ -40,7 +40,6 @@ document
     } else {
       const newTypeNumber = previousTypeNumber + character;
       typePinField.value = newTypeNumber;
-      console.log(typePinField);
     }
   });
 document.getElementById("verify_pin").addEventListener("click", function () {
@@ -61,7 +60,8 @@ document.getElementById("verify_pin").addEventListener("click", function () {
     incorrectPinMgs.style.display = "none";
   } else {
     // const incorrectPin = document.getElementById("incorrect_pin");
+    // incorrectPinMgs.style.display = "block";
     correctPinMgs.style.display = "none";
-    incorrectPinMgs.style.display = "block";
+    alert("❌ Pin Didn't Match, Please try again");
   }
 });
