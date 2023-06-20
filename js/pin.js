@@ -62,6 +62,7 @@ document.getElementById("verify_pin").addEventListener("click", function () {
     // const incorrectPin = document.getElementById("incorrect_pin");
     // incorrectPinMgs.style.display = "block";
     correctPinMgs.style.display = "none";
-    alert("❌ Pin Didn't Match, Please try again");
+    alert("❌ আপনার দেওয়া পিন ভুল হয়েছে, সঠিক পিন দিয়ে আবার চেষ্টা করুন। ");
   }
+  typePinNumber.value = "";
 });
