@@ -58,6 +58,7 @@ document.getElementById("verify_pin").addEventListener("click", function () {
     // const correctPin = document.getElementById("correct_pin");
     correctPinMgs.style.display = "block";
     incorrectPinMgs.style.display = "none";
+    generatePinField.value = "";
   } else {
     // const incorrectPin = document.getElementById("incorrect_pin");
     // incorrectPinMgs.style.display = "block";
